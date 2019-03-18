@@ -7,6 +7,7 @@ class TodoTitleComponent extends React.Component {
     render() {
         return (
             <input
+                className='input_all'
                 type="text"
                 placeholder="Tarea"
                 ref={this.props.getTitleField}

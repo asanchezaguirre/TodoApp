@@ -19,19 +19,21 @@ class TodoItemComponent extends React.Component {
                 <div className='container__tile'>
 
                     <input
+                        className='input_all'
                         type="text"
                         defaultValue={this.props.item.title}
                         ref={this.props.getTitleFieldByRef}
                     />
                     <br/>
                     <textarea
+                        className='textarea_all'
                         type="text"
                         defaultValue={this.props.item.description}
                         ref={this.props.getDescriptionFieldByRef}
                     />
                     <br/>
-                    <Button  variant="outlined" size="medium" color="primary" onClick={this.props.onSaveClick}>Guardar</Button>
-                    <Button  variant="outlined" size="medium" color="primary" onClick={this.props.onCancelClick}>Cancelar</Button>
+                    <Button style={{marginLeft: '165px'}} variant="outlined" size="medium" color="primary" onClick={this.props.onSaveClick}>Guardar</Button>
+                    <Button style={{marginLeft: '110px'}} variant="outlined" size="medium" color="primary" onClick={this.props.onCancelClick}>Cancelar</Button>
                 </div>
             );
         }
@@ -45,8 +47,8 @@ class TodoItemComponent extends React.Component {
                         <div className='container__description'>{this.props.item.description}</div>
                     </div>
                     
-                    <Button  variant="outlined" size="medium" color="primary" onClick={this.props.onRemoveClick}>Eliminar</Button>
-                    <Button variant="outlined" size="medium" color="primary" onClick={this.props.onEditClick}>Editar</Button>
+                    <Button style={{marginLeft: '165px'}} variant="outlined" size="medium" color="primary" onClick={this.props.onRemoveClick}>Eliminar</Button>
+                    <Button style={{marginLeft: '110px'}} variant="outlined" size="medium" color="primary" onClick={this.props.onEditClick}>Editar</Button>
                     
                 </div>
             );

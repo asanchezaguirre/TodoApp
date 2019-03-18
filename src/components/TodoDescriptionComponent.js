@@ -6,6 +6,7 @@ class TodoDescriptionComponent extends React.Component {
     render() {
         return (
             <textarea
+                className='textarea_all'
                 type="text"
                 placeholder="Descripción"
                 ref={this.props.getDescriptionField}

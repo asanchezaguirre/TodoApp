@@ -20,8 +20,6 @@ class App extends Component {
       <Provider store={store}>
       	<AppBar />
       	<TodoApp />
-      
-
       </Provider>
     );
   }

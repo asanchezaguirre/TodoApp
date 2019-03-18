@@ -10,7 +10,7 @@
 
 .container__app-1{
  width:40%;
- height:130px;
+ height:168px;
  background-color: #8eacbb;
  margin-right:10px;
 }
@@ -22,4 +22,19 @@
 .container__tile{
 	background-color: #8eacbb;
 	width: 94%;
+	padding: 5px;
+}
+.input_all{
+	width: 70%;
+	margin:5px auto;
+	display: block;
+}
+.textarea_all{
+	width: 70%;
+	height: 80px;
+	margin:5px auto;
+	display: block;
+}
+.MuiButton{
+	margin-left:20px;
 }

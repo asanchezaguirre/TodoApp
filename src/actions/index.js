@@ -36,14 +36,6 @@ export const editItemSave = (id, title, description) => {
     }
 }
 
-//Filtrar
-export const setVisibilityFilter = filter => {
-  return {
-    type: 'SET_VISIBILITY_FILTER',
-    filter,
-  }
-}
-
 //Tiempo
 export const playTimer = () => {
   return {

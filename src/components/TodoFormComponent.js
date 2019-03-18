@@ -22,7 +22,7 @@ class TodoFormComponent extends React.Component {
                     </div>
 
                     <div>
-                         <Button type='submit' variant="outlined" size="medium" color="primary">+ Agregar</Button>
+                         <Button style={{marginLeft: '165px'}} type='submit' variant="outlined" size="medium" color="primary">+ Agregar</Button>
                     </div>
                 </form>
                 
