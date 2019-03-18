@@ -1,0 +1,25 @@
+
+.fa-user{
+  margin-right: 15px;
+}
+.container__app{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px;
+}
+
+.container__app-1{
+ width:40%;
+ height:130px;
+ background-color: #8eacbb;
+ margin-right:10px;
+}
+
+.container__app-2{
+ width: 58%;
+ background-color:#34515e;
+}
+.container__tile{
+	background-color: #8eacbb;
+	width: 94%;
+}
