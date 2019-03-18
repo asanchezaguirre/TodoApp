@@ -4,6 +4,11 @@ import { withStyles } from '@material-ui/core/styles';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
+import blueGrey from '@material-ui/core/colors/blueGrey';
+
+
+
+const blueGrey500 = blueGrey[500]; // #F44336
 
 const styles = {
   root: {
@@ -16,7 +21,7 @@ function SimpleAppBar(props) {
 
   return (
     <div className={classes.root}>
-      <AppBar position="static" color="default">
+      <AppBar position="static" style={{backgroundColor: blueGrey500}}>
         <Toolbar>
           <i class="fas fa-user"></i>
           <Typography variant="h6" color="inherit">

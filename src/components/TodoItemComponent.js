@@ -19,7 +19,6 @@ class TodoItemComponent extends React.Component {
                 <div className='container__tile'>
 
                     <input
-                        classNme='style_input'
                         type="text"
                         defaultValue={this.props.item.title}
                         ref={this.props.getTitleFieldByRef}
@@ -41,9 +40,9 @@ class TodoItemComponent extends React.Component {
                 <div className='container__tile'>
                     <div>
                         <p>Tarea:</p>
-                        <p>{this.props.item.title}</p>
+                        <div>{this.props.item.title}</div>
                         <p>Descripción:</p>
-                        <p>{this.props.item.description}</p>
+                        <div className='container__description'>{this.props.item.description}</div>
                     </div>
                     
                     <Button  variant="outlined" size="medium" color="primary" onClick={this.props.onRemoveClick}>Eliminar</Button>
